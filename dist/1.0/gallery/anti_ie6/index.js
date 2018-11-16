@@ -3,14 +3,14 @@
     var anti_ie6 = {
 
         //template
-        template: ['<div class="fuck-ie6-info fuck-ie6-info{r}">',
-                    '<div class="fuck-ie6-container" id="fieContainer">',
-                        '<div class="fuck-ie6-why" id="fieWhy" ></div>',
-                        '<div class="fuck-ie6-show" id="fieWhyBack"></div>',
+        template: ['<div class="butterfly-ie6-info butterfly-ie6-info{r}">',
+                    '<div class="butterfly-ie6-container" id="fieContainer">',
+                        '<div class="butterfly-ie6-why" id="fieWhy" ></div>',
+                        '<div class="butterfly-ie6-show" id="fieWhyBack"></div>',
                     '</div>',
                 '</div>',
-                '<div class="fuck-ie6-update">',
-                    '<div class="fuck-ie6-suggest">建议您...</div>',
+                '<div class="butterfly-ie6-update">',
+                    '<div class="butterfly-ie6-suggest">建议您...</div>',
                     '<ul id="fieUpdates" style="padding-left: 120px;">',
                         '<li><a target="_blank" href="http://windows.microsoft.com/zh-CN/internet-explorer/downloads/ie"></a>',
                             '<i class="b-ie"></i>',
@@ -30,12 +30,12 @@
                         //     '<span>下载360浏览器</span>',
                         // '</li>',
                     '</ul>',
-                    '<div class="fuck-ie6-keep"><a href="javascript:;" id="fieKeepIE6" >不，我要继续用这个悲催的方式浏览</a></div>',
+                    '<div class="butterfly-ie6-keep"><a href="javascript:;" id="fieKeepIE6" >不，我要继续用这个悲催的方式浏览</a></div>',
                 '</div>',
-                '<a href="javascript:;" class="fuck-ie6-close" id="fieClose" title="close"></a>'].join(''),
+                '<a href="javascript:;" class="butterfly-ie6-close" id="fieClose" title="close"></a>'].join(''),
 
         //css
-        style: ".fuck-ie6-why,.fuck-ie6-show,.fuck-ie6-update ul li.fie-or,.fuck-ie6-update ul li span,.fuck-ie6-update ul li i,.fuck-ie6-suggest,.fuck-ie6-keep a,.fuck-ie6-close,.fuck-ie6{background:url(http://img02.taobaocdn.com/tps/i2/T1RwDWXnNXXXbXZK.q-576-1660.png) no-repeat 0 0}.fuck-ie6{background-position:0 -1262px;position:absolute;width:576px;height:376px;top:0;left:0;overflow:hidden;z-index:999999}.fuck-ie6-update{position:absolute;width:540px;left:30px;bottom:20px;height:187px}.fuck-ie6-update ul{margin:0 0 15px;padding:0;list-style:none;zoom:1;overflow:hidden}.fuck-ie6-update ul li{float:left;width:110px;height:115px;position:relative;margin:0 6px;display:inline}.fuck-ie6-update ul li.fie-or{width:45px;height:30px;background-position:0 -1182px;text-indent:-9999px;margin:40px 0 0}.fuck-ie6-update ul li span{font-family:'Microsoft YaHei';position:absolute;width:110px;height:25px;background-position:0 -1090px;font-size:14px;text-align:center;padding-top:20px;font-weight:bold;left:0;bottom:0;color:#06c}.fuck-ie6-update ul li a{display:block;width:110px;height:115px;cursor:pointer;color:#06c;text-decoration:none;position:absolute;z-index:10;left:0;top:0;background-color:white;filter:alpha(opacity=0);opacity:0}.fuck-ie6-update ul li a span{text-decoration:none}.fuck-ie6-update ul li a:hover span{text-decoration:underline}.fuck-ie6-update ul li i{position:absolute;width:110px;height:80px;background-position:0 -1010px;left:0;bottom:0}.fuck-ie6-update ul li.fie-hover span{text-decoration:underline}.fuck-ie6-update ul li i.b-ie{background-position:-110px -1010px}.fuck-ie6-update ul li i.b-browser360{background-position:-220px -1010px}.fuck-ie6-update ul li i.b-chrome{background-position:-330px -1010px}.fuck-ie6-suggest{background-position:0 -1150px;width:82px;height:32px;text-indent:-9999px}.fuck-ie6-keep{height:25px}.fuck-ie6-keep a{display:block;text-indent:-9999px;height:25px;width:325px;zoom:1;background-position:0 -1212px}.fuck-ie6-keep a:hover{background-position:0 -1237px}.fuck-ie6-close{position:absolute;top:25px;right:25px;width:26px;height:24px;background-position:0 -21px;cursor:pointer}.fuck-ie6-close:hover{background-position:-26px -21px}.fuck-ie6-info{position:absolute;width:520px;height:150px;left:30px;top:20px;overflow:hidden}.fuck-ie6-container{width:1040px;position:relative}.fuck-ie6-why,.fuck-ie6-show{float:left;width:520px;height:150px;cursor:pointer}.fuck-ie6-why{background-position:0 -97px;cursor:pointer}.fuck-ie6-show{background-position:0 -247px}.fuck-ie6-info2 .fuck-ie6-why{background-position:0 -397px}.fuck-ie6-info2 .fuck-ie6-show{background-position:0 -547px}.fuck-ie6-info3 .fuck-ie6-why{background-position:0 -697px}.fuck-ie6-info3 .fuck-ie6-show{background-position:0 -847px}",
+        style: ".butterfly-ie6-why,.butterfly-ie6-show,.butterfly-ie6-update ul li.fie-or,.butterfly-ie6-update ul li span,.butterfly-ie6-update ul li i,.butterfly-ie6-suggest,.butterfly-ie6-keep a,.butterfly-ie6-close,.butterfly-ie6{background:url(http://img02.taobaocdn.com/tps/i2/T1RwDWXnNXXXbXZK.q-576-1660.png) no-repeat 0 0}.butterfly-ie6{background-position:0 -1262px;position:absolute;width:576px;height:376px;top:0;left:0;overflow:hidden;z-index:999999}.butterfly-ie6-update{position:absolute;width:540px;left:30px;bottom:20px;height:187px}.butterfly-ie6-update ul{margin:0 0 15px;padding:0;list-style:none;zoom:1;overflow:hidden}.butterfly-ie6-update ul li{float:left;width:110px;height:115px;position:relative;margin:0 6px;display:inline}.butterfly-ie6-update ul li.fie-or{width:45px;height:30px;background-position:0 -1182px;text-indent:-9999px;margin:40px 0 0}.butterfly-ie6-update ul li span{font-family:'Microsoft YaHei';position:absolute;width:110px;height:25px;background-position:0 -1090px;font-size:14px;text-align:center;padding-top:20px;font-weight:bold;left:0;bottom:0;color:#06c}.butterfly-ie6-update ul li a{display:block;width:110px;height:115px;cursor:pointer;color:#06c;text-decoration:none;position:absolute;z-index:10;left:0;top:0;background-color:white;filter:alpha(opacity=0);opacity:0}.butterfly-ie6-update ul li a span{text-decoration:none}.butterfly-ie6-update ul li a:hover span{text-decoration:underline}.butterfly-ie6-update ul li i{position:absolute;width:110px;height:80px;background-position:0 -1010px;left:0;bottom:0}.butterfly-ie6-update ul li.fie-hover span{text-decoration:underline}.butterfly-ie6-update ul li i.b-ie{background-position:-110px -1010px}.butterfly-ie6-update ul li i.b-browser360{background-position:-220px -1010px}.butterfly-ie6-update ul li i.b-chrome{background-position:-330px -1010px}.butterfly-ie6-suggest{background-position:0 -1150px;width:82px;height:32px;text-indent:-9999px}.butterfly-ie6-keep{height:25px}.butterfly-ie6-keep a{display:block;text-indent:-9999px;height:25px;width:325px;zoom:1;background-position:0 -1212px}.butterfly-ie6-keep a:hover{background-position:0 -1237px}.butterfly-ie6-close{position:absolute;top:25px;right:25px;width:26px;height:24px;background-position:0 -21px;cursor:pointer}.butterfly-ie6-close:hover{background-position:-26px -21px}.butterfly-ie6-info{position:absolute;width:520px;height:150px;left:30px;top:20px;overflow:hidden}.butterfly-ie6-container{width:1040px;position:relative}.butterfly-ie6-why,.butterfly-ie6-show{float:left;width:520px;height:150px;cursor:pointer}.butterfly-ie6-why{background-position:0 -97px;cursor:pointer}.butterfly-ie6-show{background-position:0 -247px}.butterfly-ie6-info2 .butterfly-ie6-why{background-position:0 -397px}.butterfly-ie6-info2 .butterfly-ie6-show{background-position:0 -547px}.butterfly-ie6-info3 .butterfly-ie6-why{background-position:0 -697px}.butterfly-ie6-info3 .butterfly-ie6-show{background-position:0 -847px}",
 
         init: function() {
 
@@ -73,7 +73,7 @@
             this.div = doc.createElement('div');
             this.wrapDiv = doc.createElement('div');
             this.wrapDiv.style.cssText = 'position:absolute;top:100px;';
-            this.div.className = 'fuck-ie6';
+            this.div.className = 'butterfly-ie6';
             this.wrapDiv.style.left = (docWidth - 580)/2 + 'px';//居中
             tmpl = tmpl.replace('{r}', ran);
             this.div.innerHTML = tmpl;
